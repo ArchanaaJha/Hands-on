@@ -1,4 +1,4 @@
-//program to perform to array substraction
+//program to perform  array substraction
 
 package com.src;
 import java.util.Scanner;
@@ -13,16 +13,23 @@ public class Arrsub {
 		int arr[][]=new int[n][m];
 		int crr[][]=new int[n][m];
 	    int aaa[][]=new int[n][m];
-	    System.out.println("enter the elements of 1st matrix;");
-	    for(int i=0;i<n;i++)
-	    {
-	    	for(int j=0;j<m;j++) {
-	    		arr[i][j]=sc.nextInt();
-	    		System.out.println();
-	    	}
-	    }
-	    	
+	    			    System.out.println("enter the elements of 1st matrix;");
+               for(int i=0;i<n;i++)
+		    {
+		    	for(int j=0;j<m;j++) {
+		    		arr[i][j]=sc.nextInt();
+		    		System.out.println();
+		    	}
+		    }
 		    System.out.println("enter the elements of 2nd matrix");
+		    for(int i=0;i<n;i++) {
+		    	for(int j=0;j<m;j++) {
+		    		crr[i][j]=sc.nextInt();
+		    		System.out.println();
+		    	}
+		    	
+		    		}
+		    System.out.println("division of the two matrix");
 		    for(int i=0;i<n;i++) {
 		    	for(int j=0;j<m;j++) {
 		    		aaa[i][j]=arr[i][j]-crr[i][j];
@@ -36,7 +43,6 @@ public class Arrsub {
 		    	System.out.println();
 		    }
 		}
-}
-	    
+	}
 
 
