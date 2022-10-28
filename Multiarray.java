@@ -1,3 +1,4 @@
+// program to perform array addition
 package com.src;
 import java.util.Scanner;
 
@@ -23,6 +24,15 @@ public class Multiarray {
 	    System.out.println("enter the elements of 2nd matrix");
 	    for(int i=0;i<n;i++) {
 	    	for(int j=0;j<m;j++) {
+					    		crr[i][j]=sc.nextInt();
+		    		System.out.println();
+		    	}
+		    	
+		    		}
+		    System.out.println("addition of the two matrix");
+		    for(int i=0;i<n;i++) {
+		    	for(int j=0;j<m;j++) {
+
 	    		aaa[i][j]=arr[i][j]+crr[i][j];
 	    		
 	    	}
