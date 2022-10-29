@@ -1,4 +1,4 @@
-////program to perform array division
+//program to perform array division
 
 package com.src;
 
